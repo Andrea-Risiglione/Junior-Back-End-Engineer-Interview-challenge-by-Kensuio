@@ -1,6 +1,6 @@
 // ENVIRONMENT --> allows to set different environments
 
-import { env } from "./utility/env";
+import { env } from "./utilities/env";
 
 // enum is a way to create variables that must be fixed
 enum Environments {

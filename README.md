@@ -52,7 +52,7 @@ From then on, you can use the single command:
 
 to both transpile your code and start the server using Nodemon. Nodemon will automatically watch for changes in your TypeScript files and restart the server whenever you make modifications, streamlining your development workflow.
 
-!Remember to delete all the comments in the gitingore file about the .env files!
+!Remember to delete all the comments in the gitignore file about the .env files!
 
 # Junior Back-End Engineer Interview challenge
 

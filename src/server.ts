@@ -8,8 +8,6 @@ const hasTrailingSlash = mongoURI.endsWith("/");
 const CONNECTION_URL = hasTrailingSlash
 	? mongoURI + environment.getDBName()
 	: mongoURI + "/" + environment.getDBName();
-
-
 const DB = async () => {
 	try {
 		await mongoose.connect(CONNECTION_URL);

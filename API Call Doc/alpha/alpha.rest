@@ -1,0 +1,10 @@
+PUT http://localhost:3000/alpha
+Content-Type: application/json
+
+{
+    
+    "fruit":"apple",
+    "animal":"zebra",
+    "city-list":["sunnyvale","sanjose"]
+}
+###
